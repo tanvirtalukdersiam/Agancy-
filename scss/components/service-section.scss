@@ -1,0 +1,140 @@
+.service {
+  padding: 80px;
+  background: #f9f8ff;
+
+  .section_title {
+    text-align: center;
+    h5 {
+      border-radius: 8px;
+      background: #ebe7ff;
+      color: #583dd6;
+      display: inline-block;
+      padding: 5px 15px;
+      text-align: center;
+      color: #583dd6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 150% */
+    }
+    h2 {
+      color: #13287e;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 42px; /* 140% */
+      text-transform: capitalize;
+      margin-bottom: 7px;
+      margin-top: 5px;
+    }
+    p {
+      color: #888;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+      width: 514px;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  }
+
+  .item {
+    border-radius: 10px;
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.11);
+    padding: 40px 20px;
+    transition: 0.4s;
+    transform: translateY(0);
+
+    &:hover {
+      transform: translateY(-7px);
+    }
+    &:nth-child(2):hover {
+      transform: translateY(7px);
+    }
+
+    img {
+      height: 40px;
+      width: 40px;
+    }
+
+    h3 {
+      color: #13287e;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28px; /* 140% */
+      margin-top: 25px;
+    }
+    p {
+      color: #888;
+      font-family: Poppins;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28.5px; /* 190% */
+    }
+  }
+}
+
+// responsive
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .service {
+    padding: 40px 14px;
+
+    .section_title {
+      h2 {
+        font-size: 25px;
+        line-height: 45px;
+      }
+      p {
+        width: auto;
+        line-height: 30px;
+        margin-bottom: 40px;
+      }
+    }
+    .item {
+      padding: 35px 20px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .service {
+    .section_title {
+      h2 {
+        font-size: 30px;
+        line-height: 48px;
+      }
+      p {
+        width: auto;
+      }
+    }
+    .item {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+  .service {
+    padding: 50px;
+    .item {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service {
+    padding: 50px;
+  }
+}
+// responsive

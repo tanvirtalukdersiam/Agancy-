@@ -1,0 +1,122 @@
+.contact_form {
+  width: 100%;
+  padding: 80px;
+  background: #f9f8ff;
+
+  .section_title {
+    text-align: center;
+    h5 {
+      border-radius: 8px;
+      background: #ebe7ff;
+      color: #583dd6;
+      display: inline-block;
+      padding: 5px 15px;
+      text-align: center;
+      color: #583dd6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 150% */
+    }
+    h2 {
+      color: #13287e;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 42px; /* 140% */
+      text-transform: capitalize;
+      margin-bottom: 7px;
+      margin-top: 5px;
+    }
+    p {
+      color: #888;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px; /* 200% */
+      width: 514px;
+      margin: auto;
+      margin-bottom: 55px;
+    }
+  }
+  .from_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    form {
+      text-align: center;
+
+      input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 160px;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        background: none;
+        font-size: 15px;
+        border-bottom: 2px solid #c7c6cc;
+      }
+      textarea {
+        padding-top: 15px;
+        padding-bottom: 45px;
+        padding-left: 0px;
+        padding-right: 160px;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 15px;
+        font-weight: 400;
+        border-bottom: 2px solid #c7c6cc;
+      }
+      #button {
+        padding: 12px 30px;
+        background-color: #896eff;
+        color: #fff;
+        border-radius: 5px;
+        border-bottom: none;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+// responsive
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .contact_form {
+    padding: 50px 25px;
+    .section_title {
+      h2 {
+        font-size: 30px;
+        line-height: 38px;
+      }
+      p {
+        width: auto;
+        margin-bottom: 40px;
+      }
+    }
+    .from_section {
+      form {
+        input {
+          padding-right: 25px;
+        }
+        textarea {
+          padding-right: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+// responsive

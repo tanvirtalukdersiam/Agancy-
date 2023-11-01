@@ -1,0 +1,20 @@
+.contacts {
+  padding: 90px;
+  background-color: #9b82ff;
+}
+.contacts .contacts_bannar {
+  text-align: center;
+}
+.contacts .contacts_bannar h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 576.98px) {
+  .contacts {
+    padding: 55px;
+  }
+  .contacts .contacts_bannar h1 {
+    font-size: 33px;
+  }
+}/*# sourceMappingURL=contact-bannar.css.map */

@@ -1,0 +1,25 @@
+.about {
+  padding: 90px;
+  background-color: #9b82ff;
+  .about_bannar {
+    text-align: center;
+    h1 {
+      font-size: 50px;
+      color: #fff;
+    }
+  }
+}
+
+// responsive
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .about {
+    padding: 55px;
+    .about_bannar {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+// responsive

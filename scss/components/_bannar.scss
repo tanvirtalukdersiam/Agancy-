@@ -1,0 +1,177 @@
+.bannar {
+  padding: 35px;
+  background: #f6f4ff;
+  .text {
+    margin-top: 81px;
+    h4 {
+      color: #896eff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25.2px; /* 140% */
+      i {
+        margin-right: 6px;
+      }
+    }
+    h1 {
+      color: #1f2471;
+      font-family: Poppins;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 63px; /* 140% */
+      width: 477px;
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
+    p {
+      color: #888;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35.2px; /* 190% */
+      width: 525px;
+      margin-bottom: 21px;
+    }
+    .button {
+      a {
+        border-radius: 10px;
+        background: #896eff;
+        padding: 2px 23px;
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px; /* 400% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:nth-child(1) {
+          margin-right: 13px;
+        }
+      }
+    }
+  }
+}
+
+// responsive
+// Example
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .bannar {
+    padding: 0px 14px;
+    .text {
+      h4 {
+        font-size: 17px;
+      }
+      h1 {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40px;
+        width: auto;
+        margin-top: 11px;
+        margin-bottom: 18px;
+      }
+      p {
+        color: #888;
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33.2px;
+        width: auto;
+        margin-bottom: 21px;
+      }
+      .button {
+        a {
+          padding: 1px 19px;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 45px;
+
+          &:nth-child(1) {
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+  }
+  .img {
+    img {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannar {
+    .text {
+      text-align: center;
+      h4 {
+        i {
+          display: none;
+        }
+        font-size: 20px;
+      }
+      h1 {
+        font-size: 38px;
+        line-height: 45px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 18px;
+      }
+    }
+    .img {
+      img {
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bannar {
+    padding: 7px;
+    .text {
+      text-align: left;
+      h1 {
+        font-size: 40px;
+        line-height: 54px;
+      }
+      padding: {
+        line-height: 33px;
+      }
+    }
+    .img {
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bannar {
+    .text {
+      h1 {
+        font-size: 40px;
+        line-height: 56px;
+        width: auto;
+        margin-top: 15px;
+        margin-bottom: 13px;
+      }
+      p {
+        line-height: 32.2px;
+        width: auto;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+// responsive

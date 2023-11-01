@@ -1,0 +1,31 @@
+.pricings {
+  padding: 90px;
+  background-color: #9b82ff;
+
+  .pricings_bannar {
+    text-align: center;
+    h1 {
+      font-size: 50px;
+      color: #fff;
+    }
+  }
+}
+
+// responsive
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .pricings {
+    padding: 55px;
+    .pricings_bannar {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .pricings {
+    padding: 65px;
+  }
+}
+// responsive

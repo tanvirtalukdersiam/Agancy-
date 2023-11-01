@@ -1,0 +1,25 @@
+.contacts {
+  padding: 90px;
+  background-color: #9b82ff;
+
+  .contacts_bannar {
+    text-align: center;
+    h1 {
+      font-size: 50px;
+      color: #fff;
+    }
+  }
+}
+
+// responsive
+@media (min-width: 320px) and (max-width: 576.98px) {
+  .contacts {
+    padding: 55px;
+    .contacts_bannar {
+      h1 {
+        font-size: 33px;
+      }
+    }
+  }
+}
+// responsive

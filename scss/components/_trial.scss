@@ -1,0 +1,169 @@
+.trial {
+  padding: 80px 0;
+  background-color: #9e86ff;
+  img {
+    border-radius: 9px;
+  }
+  .text {
+    padding-top: 50px;
+    h3 {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 49px; /* 140% */
+    }
+    p {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28.5px; /* 190% */
+      width: 527px;
+      margin-top: 18px;
+      margin-bottom: 30px;
+    }
+    form {
+      border-radius: 35px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0px 9px 68px 0px rgba(57, 51, 105, 0.2);
+      display: inline-block;
+      width: 540px;
+
+      input {
+        border-radius: 22px;
+        background: #fff;
+        padding: 12px;
+        width: 100%;
+      }
+      .button {
+        margin-left: 8px;
+        a {
+          border-radius: 12px;
+          background: #896eff;
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 48px; /* 400% */
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          padding: 3px 36px;
+          margin-top: 30px;
+          // margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+// responsive
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .trial {
+    padding: 15px 14px;
+    padding-bottom: 40px;
+
+    .img {
+      img {
+        height: 270px;
+        width: 270px;
+        object-fit: cover;
+      }
+    }
+    .text {
+      padding-top: 40px;
+      h3 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      p {
+        width: auto;
+        margin-top: 15px;
+      }
+      form {
+        border-radius: 20px;
+        padding: 10px;
+        width: auto;
+        .button {
+          text-align: center;
+          a {
+            padding: 0px 45px;
+            margin-top: 20px;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .trial {
+    .img {
+      text-align: center;
+      img {
+        height: 285px;
+        width: 400px;
+        object-fit: contain;
+      }
+    }
+    .text {
+      text-align: center;
+      h3 {
+        font-size: 36px;
+      }
+
+      .foem {
+        form {
+          padding: 20px;
+
+          input {
+            padding: 15px 30px;
+          }
+          .button {
+            a {
+              padding: 1px 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .trial {
+    padding: 50px;
+
+    .img {
+      img {
+        height: 260px;
+        width: 370px;
+        object-fit: contain;
+        margin-top: 115px;
+      }
+    }
+    .text {
+      p {
+        width: auto;
+      }
+      .foem {
+        form {
+          width: auto;
+          input {
+            width: auto;
+            .button {
+              padding: 1px 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// responsive

@@ -1,0 +1,24 @@
+.faqs {
+  padding: 90px;
+  background-color: #9b82ff;
+  .faqs_bannar {
+    text-align: center;
+    h1 {
+      font-size: 50px;
+      color: #fff;
+    }
+  }
+}
+
+// responsive
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .faqs {
+    padding: 55px;
+  }
+  .faqs_bannar {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+// responsive
